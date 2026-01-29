@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>普通話作品 1 號 - 北京的老規矩</title>
+    <style>
+        body { font-family: "Microsoft JhengHei", sans-serif; line-height: 2.5; background: #fdfaf2; padding: 20px; max-width: 850px; margin: auto; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #a90000; border-bottom: 2px solid #a90000; padding-bottom: 10px; }
+        .audio-nav { position: sticky; top: 0; background: white; padding: 15px 0; border-bottom: 1px solid #eee; z-index: 100; text-align: center; }
+        audio { width: 100%; }
+        .paragraph { margin-bottom: 30px; }
+        .sentence { display: inline-block; cursor: pointer; padding: 2px 5px; border-radius: 4px; transition: 0.2s; }
+        .sentence:hover { background: #fff9c4; }
+        .pinyin { display: block; font-size: 14px; color: #666; line-height: 1.2; }
+        .hanzi { display: block; font-size: 20px; color: #333; }
+        .active { background: #ffeb3b !important; font-weight: bold; border: 1px solid #fbc02d; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>作品 1 號：照北京的老規矩</h1>
+    
+    <div class="audio-nav">
+        <audio id="player" controls>
+            <source src="01.mp3" type="audio/mpeg">
+        </audio>
+        <p style="font-size: 14px; color: #888;">💡 點擊下方文字，即可從該句開始朗讀</p>
+    </div>
+
+    <div id="content">
+        <div class="paragraph">
+            <span class="sentence" data-time="0"><span class="pinyin">zhào běi jīng de lǎo guī ju</span><span class="hanzi">照北京的老規矩，</span></span>
+            <span class="sentence" data-time="3"><span class="pinyin">chūn jié chà bù duō zài là yuè de chū xún jiù kāi shǐ le</span><span class="hanzi">春節差不多在臘月的初旬就開始了。</span></span>
+            <span class="sentence" data-time="9"><span class="pinyin">“là qī là bā, dòng sǐ hán yā”, zhè shì yì nián lǐ zuì lěng de shí hou</span><span class="hanzi">「臘七臘八，凍死寒鴉」，這是一年裏最冷的時候。</span></span>
+            <span class="sentence" data-time="17"><span class="pinyin">zài là bā zhè tiān, jiā jiā dōu áo là bā zhōu</span><span class="hanzi">在臘八這天，家家都熬臘八粥。</span></span>
+            <span class="sentence" data-time="22"><span class="pinyin">zhōu shì yòng gè zhǒng mǐ, gè zhǒng dòu, yǔ gè zhǒng gān guǒ áo chéng de</span><span class="hanzi">粥是用各種米，各種豆，與各種乾果熬成的。</span></span>
+            <span class="sentence" data-time="31"><span class="pinyin">zhè bú shì zhōu, ér shì xiǎo xíng de nóng yè zhǎn lǎn huì</span><span class="hanzi">這不是粥，而是小型的農業展覽會。</span></span>
+        </div>
+
+        <div class="paragraph">
+            <span class="sentence" data-time="37"><span class="pinyin">zhè yì tiān hái yào pào là bā suàn</span><span class="hanzi">這一天還要泡臘八蒜。</span></span>
+            <span class="sentence" data-time="40.5"><span class="pinyin">bǎ suàn bànr fàng jìn cù lǐ, fēng qǐ lái, wèi guò nián chī jiǎo zi yòng</span><span class="hanzi">把蒜瓣放進醋裏，封起來，為過年吃餃子用。</span></span>
+            <span class="sentence" data-time="48.5"><span class="pinyin">dào nián dǐ, suàn pào de sè rú fěi cuì, cù yě yǒu le xiē là wèir</span><span class="hanzi">到年底，蒜泡得色如翡翠，醋也有了些辣味，</span></span>
+            <span class="sentence" data-time="56.5"><span class="pinyin">sè wèi shuāng měi, shǐ rén rěn bú zhù yào duō chī jǐ gè jiǎo zi</span><span class="hanzi">色味雙美，使人忍不住要多吃幾個餃子。</span></span>
+            <span class="sentence" data-time="63.5"><span class="pinyin">zài běi jīng, guò nián shí, jiā jiā chī jiǎo zi</span><span class="hanzi">在北京，過年時，家家吃餃子。</span></span>
+        </div>
+
+        <div class="paragraph">
+            <span class="sentence" data-time="69.5"><span class="pinyin">hái zi men zhǔn bèi guò nián, dì yī jiàn dà shì jiù shì mǎi zá bànr</span><span class="hanzi">孩子們準備過年，第一件大事就是買雜拌兒。</span></span>
+            <span class="sentence" data-time="76.5"><span class="pinyin">zhè shì yòng huā shēng, jiāo zǎo, zhēn zi, lì zi děng gān guǒ yǔ mì jiàn chān huo chéng de</span><span class="hanzi">這是用花生、膠棗、榛子、栗子等乾果與蜜餞摻和成的。</span></span>
+            <span class="sentence" data-time="86.5"><span class="pinyin">hái zi men xǐ huan chī zhè xiē líng qī bā suìr</span><span class="hanzi">孩子們喜歡吃這些零七八碎兒。</span></span>
+            <span class="sentence" data-time="91.5"><span class="pinyin"> dì èr jiàn dà shì shì mǎi bào zhú, tè bié shì nán hái zi men huān xǐ</span><span class="hanzi">第二件大事是買爆竹，特別是男孩子們歡喜。</span></span>
+            <span class="sentence" data-time="98.5"><span class="pinyin">kǒng pà dì sān jiàn shì cái shì mǎi gè zhǒng wán yìr: fēng zheng, kōng zhú, kǒu qín děng</span><span class="hanzi">恐怕第三件事才是買各種玩意兒：風箏、空竹、口琴等。</span></span>
+        </div>
+
+        <div class="paragraph">
+            <span class="sentence" data-time="109.5"><span class="pinyin">dà rén men yě máng luàn, tā men bì xū yù bèi guò nián chī de, hē de, chuān de, yòng de</span><span class="hanzi">大人們也忙亂，他們必須預備過年吃的、喝的、穿的、用的，</span></span>
+            <span class="sentence" data-time="118.5"><span class="pinyin">hǎo zài xīn nián shí xiǎn chū wàn xiàng gēng xīn de qì xiàng</span><span class="hanzi">好在新年時顯出萬象更新的氣象。</span></span>
+            <span class="sentence" data-time="125.5"><span class="pinyin">là yuè èr shí sān guò xiǎo nián, chà bù duō jiù shì guò chūn jié de “cǎi pái”</span><span class="hanzi">臘月二十三過小年，差不多就是過春節的「彩排」。</span></span>
+            <span class="sentence" data-time="133.5"><span class="pinyin">tiān yì cā hēir, biān pào xiǎng qǐ lái, biàn yǒu le guò nián de wèi dào</span><span class="hanzi">天一擦黑兒，鞭炮響起來，便有了過年的味道。</span></span>
+            <span class="sentence" data-time="142.5"><span class="pinyin">zhè yì tiān shì yào chī táng de</span><span class="hanzi">這一天是要吃糖的，</span></span>
+            <span class="sentence" data-time="145.5"><span class="pinyin">jiē shàng zǎo yǒu hǎo duō mài mài yá táng yǔ jiāng mǐ táng de</span><span class="hanzi">街上早有好多賣麥芽糖與江米糖的，</span></span>
+            <span class="sentence" data-time="151.5"><span class="pinyin">táng xíng huò wéi cháng fāng kuàir huò wèi guā xíng, yòu tián yòu nián, xiǎo hái zi men zuì xǐ huan</span><span class="hanzi">糖形或為長方塊或為瓜形，又甜又黏，小孩子們最喜歡。</span></span>
+        </div>
+
+        <div class="paragraph">
+            <span class="sentence" data-time="162.5"><span class="pinyin">guò le èr shí sān, dà jiā gèng máng, bì xū dà sǎo chú yí cì</span><span class="hanzi">過了二十三，大家更忙，必須大掃除一次，</span></span>
+            <span class="sentence" data-time="168.5"><span class="pinyin">hái yào bǎ ròu, jī, yú, qīng cài, nián gāo shén me de dōu yù bèi chōng zú</span><span class="hanzi">還要把肉、雞、魚、青菜、年糕什麼的都預備充足。</span></span>
+            <span class="sentence" data-time="177.5"><span class="pinyin">diàn pù duō shù zhèng yuè chū yī dào chū wǔ guān mén, dào zhèng yuè chū liù cái kāi zhāng</span><span class="hanzi">店舖多數正月初一到初五關門，到正月初六才開張。</span></span>
+        </div>
+    </div>
+</div>
+
+<script>
+    const player = document.getElementById('player');
+    const sentences = document.querySelectorAll('.sentence');
+
+    // 點擊句子跳轉播放
+    sentences.forEach(s => {
+        s.addEventListener('click', () => {
+            player.currentTime = parseFloat(s.dataset.time);
+            player.play();
+        });
+    });
+
+    // 播放時同步高亮文字
+    player.addEventListener('timeupdate', () => {
+        let cur = player.currentTime;
+        sentences.forEach((s, i) => {
+            let start = parseFloat(s.dataset.time);
+            let next = sentences[i+1] ? parseFloat(sentences[i+1].dataset.time) : 999;
+            if (cur >= start && cur < next) {
+                s.classList.add('active');
+            } else {
+                s.classList.remove('active');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
